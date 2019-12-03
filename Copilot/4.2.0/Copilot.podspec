@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = "Zemingo R&D"
   s.platform     = :ios, '10.0'
-  s.source       = { :git => "https://bitbucket.org/zemingo/copilot-sdk-ios.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://bitbucket.org/zemingo/copilot-sdk-ios-pub.git", :tag => "#{s.version}" }
   s.module_name = "Copilot" 
   s.swift_version = '5.0'
   

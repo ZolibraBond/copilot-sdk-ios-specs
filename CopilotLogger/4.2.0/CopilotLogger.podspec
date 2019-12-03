@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = "Zemingo R&D"
   s.platform     = :ios, '10.0'
   s.swift_version = '5.0'
-  s.source       = { :git => "https://bitbucket.org/zemingo/copilot-sdk-ios.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://bitbucket.org/zemingo/copilot-sdk-ios-pub.git", :tag => "#{s.version}" }
   s.source_files  = "Sources/CopilotCore/Utils/ZLogManager/*.{h,m,swift}"
   s.module_name = "CopilotLogger"
 end
