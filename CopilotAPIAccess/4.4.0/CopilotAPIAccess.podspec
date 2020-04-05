@@ -8,8 +8,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '10.0'
   s.swift_version = '5.0'
   s.source       = { :git => "https://bitbucket.org/zemingo/copilot-sdk-ios-pub.git", :tag => "#{s.version}" }
-  s.source_files  = ['Sources/**/*.swift', 'API Facade/**/*.swift', 'Raf/**/*.swift', 'CopilotYourOwn/**/*.swift']
+  s.source_files  = ['Sources/**/*.swift']
   s.exclude_files = ['Sources/BLELayer/**/*', 'Sources/CopilotCore/Utils/ZLogManager/**/*']
+  s.resources = ['Sources/Resources/**/*', 'Sources/Resources/**/*.{xcassets}']
   s.module_name = "CopilotAPIAccess"
   s.dependency "Moya", "~> 13.0"
   s.dependency "Alamofire", "~> 4.8"
