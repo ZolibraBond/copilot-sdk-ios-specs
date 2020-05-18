@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.module_name = "ZemingoBLELayer" 
   s.prefix_header_file = 'Sources/BLELayer/Supporting Files/PrefixHeader.pch'
   s.frameworks = "CoreBluetooth"
-  s.dependency "CopilotLogger", "~> #{s.version}"
+  s.dependency "CopilotLogger", "#{s.version}"
   s.swift_version = '5.0'
 end

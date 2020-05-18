@@ -12,11 +12,11 @@ Pod::Spec.new do |s|
   
   
   s.subspec "Logger" do |logger|
-    logger.dependency "CopilotLogger", "~> #{s.version}"    
+    logger.dependency "CopilotLogger", "#{s.version}"    
   end
 
   s.subspec "APIAccess" do |apiAccess|
-    apiAccess.dependency "CopilotAPIAccess", "~> #{s.version}"    
+    apiAccess.dependency "CopilotAPIAccess", "#{s.version}"    
   end
 
 end

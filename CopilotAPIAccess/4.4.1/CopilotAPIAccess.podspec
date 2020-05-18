@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.dependency "Moya", "~> 14.0"
   s.dependency "Alamofire", "~> 5.1"
   s.dependency "Result", "~> 4.1"  
-  s.dependency "CopilotLogger", "~> #{s.version}"
+  s.dependency "CopilotLogger", "#{s.version}"
   s.dependency "Kingfisher", "~> 5.0"  
 end
