@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ZemingoBLELayer"
-  s.version      = "4.5.0"
+  s.version      = "4.7.1"
   s.summary      = "A framework that handles BLE communication."
   s.homepage     = "https://bitbucket.org/teamcopilot/deployment-test-copilot-sdk-ios"
   s.license      = "MIT"
