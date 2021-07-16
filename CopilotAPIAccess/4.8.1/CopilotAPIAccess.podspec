@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.resources = ['Sources/Resources/**/*', 'Sources/Resources/**/*.{xcassets}']
   s.module_name = "CopilotAPIAccess"
   s.dependency "Moya", "~> 14.0"
-  s.dependency "Alamofire", "~> 5.2.0"
+  s.dependency "Alamofire", "~> 5.4.3"
   s.dependency "Result", "~> 4.1"  
   s.dependency "CopilotLogger", "4.8.0"
   s.dependency "Kingfisher", "~> 6.0"  
