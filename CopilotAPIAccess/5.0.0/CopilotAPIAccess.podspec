@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "CopilotAPIAccess"
-  s.version      = "4.10.0"
+  s.version      = "5.0.0"
   s.summary      = "A framework that handles communication with the Copilot API, including authentication, registration, GDPR consent, thing association and more."
   s.homepage     = "https://bitbucket.org/teamcopilot/copilot-sdk-ios"
   s.license      = "MIT"
   s.author       = "Copilot"
-  s.platform     = :ios, '10.0'
+  s.platform     = :ios, '12.0'
   s.swift_version = '5.0'
   s.source       = { :git => "https://bitbucket.org/teamcopilot/copilot-sdk-ios-pub.git", :tag => "#{s.version}" }
   s.source_files  = ['Sources/**/*.swift']
