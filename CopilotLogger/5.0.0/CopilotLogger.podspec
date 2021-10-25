@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CopilotLogger"
-  s.version      = "4.8.0"
+  s.version      = "5.0.0"
   s.summary      = "A framework that handles logging with the Copilot backend."
   s.homepage     = "https://bitbucket.org/teamcopilot/deployment-test-copilot-sdk-ios"
   s.license      = "MIT"
